@@ -1,0 +1,160 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-size: 35;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.juu{
+    background-color: black;
+    font-size: 36px;
+    padding: 10px;
+    color: white;
+    padding: 30px;
+    width: 100%;
+    right: 0px;
+    align-content: center;
+    display: inline-block;
+    margin: 0px;
+}
+.muhimu{
+    background-color: rgb(39, 39, 121);
+    padding-left: 50px;
+    margin: 0px;
+}
+
+.me_photo{
+    left: 0px;
+    width: 50%;
+    
+}
+.my_photo{
+    width: 200px;
+    height: 200px;
+ }
+
+.kati{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    margin: 100px;
+    padding: 50px;
+    font-size: 36px;
+    text-align: center;
+    border: 1px solid black;
+}
+.kuhusu_mimi{
+    background-color: white;
+}
+h1{
+    color: white;
+    font-size: 49px;
+    width: 50%;
+    float: left;
+}
+h1 span{
+    padding-top: 5px;
+    font-size: 30px;
+}
+h2{
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.work{
+    background-color: rgb(114, 113, 113);
+    color: white;
+    padding: 10px;
+    margin: auto;
+    display: block;
+    
+    
+}
+h3{
+    padding-top: 10px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+.picha{
+    border: 6px solid rgb(255, 255, 255);
+    width: 270px;
+    height: 270px;
+}
+
+.chini{
+    background-color: rgb(6, 12, 63);
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+.navBar li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+
+}
+a:hover{
+    border-bottom: 2px solid white;
+}
+.bar{
+   text-align: center;
+}
+.mawasiliano{
+    padding-left: 20px;
+    font-size: 36px;
+}
+.mawasiliano span{
+    padding-left: 20px;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+.contacts li{
+    list-style-type: none;
+    
+}
+.copyright{
+    font-size: 30px;
+}
+
+/*for desktop devices */
+@media screen and (max-width: 991px) {
+    .picha{
+        width: 400px;
+        height: 400px;
+    }
+}
+
+/*for tablets devices */
+@media screen and (max-width: 767px) {
+    .picha{
+        width: 180px;
+        height: 180px;
+    }
+    body{
+        font-size: 15px;
+    }
+}
+    /*for mobile devices */
+@media screen and (max-width: 479px) {
+    .picha{
+        width: 120px;
+        height: 120px;
+    }
+    body{
+        font-size: 15px;
+    }
+    .kati{
+        margin: 50px;
+        font-size: 29px;
+    }
+    #work{
+        font-size: 29px;
+    }
+}
